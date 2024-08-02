@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing  Webpage</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="main.js" class="main js">
+    <style>
+        body{
+            font-family:'poppins','sans-sarif';
+            background: url(background.jpg);
+            background-position:center;
+            background-size:cover;
+        background-repeat:no-repeat;
+        }
+        section{
+    
+           /* min-height:80vh;*/
+            
+            padding:1rem;
+            display:flex;
+
+        }
+        .container{
+            margin:4px;
+        }
+    .navbar{
+        display:flex;
+        justify-content:space-between;
+        gap:1rem;
+        margin:2px;
+        position:fixed;
+    }
+    .img img {
+        max-width:50px;
+        background:transparent;
+        margin-right:160px;
+    }
+    .nav{
+        margin-right:200px;
+        font-weight:500;
+    }
+    .nav a{
+        margin-right:18px;
+        font-size:1.8rem;
+        font-weight:500;
+        gap:1.2rem;
+    
+    }
+   .nav a:hover{
+        color:rgb(187, 101, 187);
+        font-size:1.5rem;
+    }
+    .search input{
+width:200px;
+height:auto;
+margin-right:0px;
+border-radius:2rem;
+font-weight:600;
+font-size:1.3rem;
+padding:0.3rem .8rem;
+        }
+        .search input span  i{
+            font-size:1rem;
+            width:23px;
+            height:22px;
+        }
+    .login input{
+            width:60px;
+            margin-right:0px;
+            padding:.3rem .8rem;
+            font-weight:400;
+            border-radius:2rem;
+            font-size:1.3rem;
+            background-color:rgb(34, 156, 156);
+            color:white;
+            font-weight:600;
+            border:none;
+
+        }
+        .login{
+            margin-top:10px;
+        
+        }
+        .search{
+            margin-top:10PX;
+            margin-right:60px;
+            font-size:1rem;
+            
+        }
+        .search span{
+            font-size:1.5rem;
+        }
+        .login span{
+            font-size:1.4rem;
+            color:rgb(129, 119, 119);
+        }
+        .login :hover{
+    color:blueviolet;
+}
+.search:hover{
+    color:blueviolet;
+}
+.destination{
+    display:flex;
+    justify-content:left;
+    margin-top:160px;
+    margin-left:120px;
+    width:40%;
+    font-size:2rem;
+    color:white;
+}
+.destination p{
+    font-size:1rem;
+}
+ .destination .social-media{
+    margin-top:300px;
+    position:absolute;
+    left:0;
+    display:flex;
+    flex-direction:column;
+    padding:9px;
+    gap:1rem;
+}
+.destination .social-media a i:hover{
+    color:white;
+
+}
+.btn{
+    padding:8px;
+    font-weight:600;
+    font-size:1rem;
+    color:var(--white);
+    background-color:rgb(10, 148, 148);
+    cursor:pointer;
+    box-shadow: cyan;
+
+}
+.btn:hover{
+    color:purple;
+}
+.line{
+    width:3px;
+    height:356px;
+    position:absolute;
+    background-color: antiquewhite;
+    left:2%;
+    margin-top:80px;
+
+}
+.desimage{
+    display:flex;
+justify-content:left;
+    width:20%;
+    height:auto;
+    margin-right:30px;
+    margin-left:50px;
+}
+.desimage img{
+    padding:20px;
+
+}
+    </style>
+</head>
+<body><div class="container">
+    <section>
+        <div class="navbar">
+            <div class="img">
+                <img src="travel.jpg" alt="image">
+            </div>
+            <div class="nav"> <a href="" >Home</a>
+            <a href="" >Destination</a>
+           <a href="" >Contact Us</a>
+           <a href="" >Blog</a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search " ><span><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+        <div class="login">
+            <input type="login" placeholder="Login"><span><i class="fa-solid fa-user"></i></span>
+        </div>
+        </div>
+    </section>
+    <div class="line"></div>
+    <div class="destination">
+    <div class="social-media">
+    <a href=""><i class="fa-brands fa-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-instagram"></i></a>
+    <a href=""><i class="fa-brands fa-facebook"></i></a>
+    <a href=""><i class="fa-brands fa-youtube"></i></a>
+    </div>
+    <div class="content">
+        <h1 class="heading">EXPLORE<br>
+             DREAM<br> <span1> DESTINATION</span1></h1>
+             <p>It encourages exploration of unfimiliar territories embracing diverse cultures and landscapes ,while pursuing the desired destination that captivates the heart andignites a sense of wonder.</p>
+             <button class="btn">BOOK NOW</button>
+    
+    </div>
+    <div class="desimage">
+    
+    <img src="des1.png">
+</div>
+</div>
+</body>
+</html>
